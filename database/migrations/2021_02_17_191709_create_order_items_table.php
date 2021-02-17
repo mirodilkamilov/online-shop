@@ -13,7 +13,7 @@ class CreateOrderItemsTable extends Migration
      */
     public function up()
     {
-        Schema::create('order_items', function (Blueprint $table) {
+        Schema::create('product_order', function (Blueprint $table) {
             $table->unsignedBigInteger('order_id');
             $table->foreign('order_id')->references('order_id')->on('orders');
             $table->unsignedBigInteger('product_id');
