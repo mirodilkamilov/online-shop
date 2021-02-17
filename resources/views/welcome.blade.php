@@ -1,6 +1,9 @@
 @extends('layouts.header')
 
 @section('content')
+    {{--    {{ route['cart'] }}--}}
+    <form id="cart-form" action="#" method="post">
+    </form>
     <div class="product-list">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -12,7 +15,8 @@
                             additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+                        <input type="hidden" name="product_id" value="something" form="cart-form">
+                        <input type="submit" value="Add to cart" class="btn btn-primary" form="cart-form">
                     </div>
                 </div>
             </div>
@@ -25,7 +29,8 @@
                             content.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+                        <input type="hidden" name="product_id" value="something" form="cart-form">
+                        <input type="submit" value="Add to cart" class="btn btn-primary" form="cart-form">
                     </div>
                 </div>
             </div>
@@ -40,7 +45,8 @@
                             action.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+                        <input type="hidden" name="product_id" value="something" form="cart-form">
+                        <input type="submit" value="Add to cart" class="btn btn-primary" form="cart-form">
                     </div>
                 </div>
             </div>

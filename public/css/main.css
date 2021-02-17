@@ -43,3 +43,8 @@ html {
 .product-list img {
   max-width: 250px;
 }
+.product-list .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

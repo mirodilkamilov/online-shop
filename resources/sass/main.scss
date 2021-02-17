@@ -1,6 +1,6 @@
 @import "setup";
 
-.cart-span{
+.cart-span {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
@@ -10,12 +10,21 @@
     background-color: #cbd5e0;
     border-radius: 50%;
 }
-.product-list{
+
+.product-list {
     margin: 2rem;
-    .card{
+
+    .card {
         align-items: center;
     }
-    img{
+
+    img {
         max-width: 250px;
+    }
+
+    .card-footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
