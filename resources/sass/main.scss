@@ -10,3 +10,12 @@
     background-color: #cbd5e0;
     border-radius: 50%;
 }
+.product-list{
+    margin: 2rem;
+    .card{
+        align-items: center;
+    }
+    img{
+        max-width: 250px;
+    }
+}
