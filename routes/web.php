@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome', ['num' => 3]);
-});
+Route::get('/', 'App\Http\Controllers\HomeController@index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
