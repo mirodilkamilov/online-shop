@@ -9,12 +9,12 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
-    protected $primaryKey = 'user_id';
     use HasFactory, Notifiable;
+    protected $primaryKey = 'user_id';
 
     public function orders()
     {
-        return $this->hasMany(Order::class);
+        return $this->hasMany(Order::class, 'user_id', 'user_id');
     }
 
 

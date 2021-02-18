@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function index()
     {
         $products = DB::table('products')->get();
+//        $orders = DB::table('orders')->
         return view('welcome', ['products' => $products]);
     }
 }
