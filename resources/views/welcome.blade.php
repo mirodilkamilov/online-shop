@@ -14,6 +14,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ $product->title }}</h5>
                             <p class="card-text">{{ $product->description }}</p>
+                            <p class="card-text"><strong>Price: </strong>${{ $product->price }}</p>
                         </div>
                         <div class="card-footer">
                             <input type="hidden" name="product_id" value="{{ $product->product_id }}" form="cart-form">
