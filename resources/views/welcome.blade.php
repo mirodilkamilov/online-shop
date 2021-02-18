@@ -4,6 +4,7 @@
     {{--    {{ route['cart'] }}--}}
     <form id="cart-form" action="#" method="post">
     </form>
+    <h4 align="center">Note: These information are fetched from database</h4>
     <div class="product-list">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach($products as $product)

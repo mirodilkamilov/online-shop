@@ -2,9 +2,9 @@
 
 #### Website is hosted <a href="http://optimus-online-shop.herokuapp.com/">here</a>
 
-### Importan features
+### Important features
 - Product list are fetched from database
-- Eloquent models setted up (ulgurmadim display qilishga)
+- All eloquent models set up (ulgurmadim display qilishga)
 - Seeders and Migration files there
 
 ### Database design
